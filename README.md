@@ -65,7 +65,8 @@ CREATE TABLE appointments (
     FOREIGN KEY (doctor_id) REFERENCES doctors(id)
 );
 ```
-
+## Database Schema Screenshot
+![Image](https://github.com/user-attachments/assets/d9ae8db2-e343-46c7-8d7b-29750c301ebb) 
 
 ## Installation
 
@@ -111,6 +112,29 @@ java HospitalManagementSystem
 - Gender: Only "male" or "female"
 - Date: Strict YYYY-MM-DD format
 
+### Output ScreenShots
+
+- Add Patient
+
+![Image](https://github.com/user-attachments/assets/17be2659-3c69-4428-b429-e34d8a5f4f2e)
+
+- View Patient
+
+![Image](https://github.com/user-attachments/assets/08abfce9-daac-4c21-b868-4b4c8b9c31cf)
+
+
+- View Doctor
+
+![Image](https://github.com/user-attachments/assets/8981d61c-f537-4816-a6f5-72b6b8fe9199)
+
+- Book Appointment
+
+![Image](https://github.com/user-attachments/assets/679f87e6-1e59-4a04-889f-e0b2f11c9e4d)
+
+- Exit 
+
+![Image](https://github.com/user-attachments/assets/ba2407d9-6f07-41b6-91af-c3a4a5f70fff)
+
 
 ## Technical Details
 - Language: Java
@@ -127,3 +151,10 @@ java HospitalManagementSystem
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+
+
+
+
+
+
